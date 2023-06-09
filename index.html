@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML CSS Page</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=PT+Sans:ital@1&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@1,100&family=Source+Code+Pro:wght@300&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Nova+Oval&display=swap');
+
+        body {
+            padding: 1px;
+            margin: 1px;
+        }
+
+        .header {
+            padding: 1px;
+            margin: 10px;
+            text-align: center;
+            font-family: monospace;
+            font-size: 35px;
+            border-radius: 6px;
+            color: blueviolet;
+            background-color: pink;
+        }
+
+        .navbar ul {
+            display: flex;
+            justify-content: space-between;
+            font-family: 'PT Sans', sans-serif;
+            margin-right: 120px;
+            color: blueviolet;
+            margin: 15px;
+        }
+
+        .content {
+            display: flex;
+            width: 100%;
+        }
+
+        .about {
+            padding: 1px;
+            margin: 10px;
+            width: 250px;
+            height: 270px;
+            border-radius: 6px;
+            align-items: center;
+            display: flex;
+            flex-direction: column;
+            color: blueviolet;
+            background-color: #f4dab8;
+        }
+
+        .about>p {
+            padding: 1px;
+            margin: 1px;
+            text-align: center;
+            color: rgb(0, 0, 0);
+            font-family: 'Roboto Mono', monospace;
+        }
+
+        .article {
+            padding: 1px;
+            margin: 10px;
+            width: 144%;
+            height: 270px;
+            display: flex;
+            border-radius: 6px;
+            background-color: rgb(196, 219, 150);
+        }
+
+        .article ul {
+            padding: 0px;
+            margin: 10px;
+            line-height: 26px;
+        }
+
+        .article h4 {
+            padding: 1px;
+            margin: 2px;
+            font-family: Arial, Helvetica, sans-serif;
+            line-height: 29px;
+        }
+
+        .footer {
+            padding: 9px;
+            margin: 10px;
+            text-align: center;
+            font-size: 20px;
+            border-radius: 6px;
+            color: blueviolet;
+            background-color: pink;
+        }
+
+        img {
+            padding: 9px;
+            margin: 9px;
+            border-radius: 15px;
+        }
+    </style>
+</head>
+
+<body>
+    <section class="header">
+        <!-- <img src="/developer.png" width="20px" height="20px"> -->
+        <h1>Vishal Prasad</h1>
+    </section>
+    <section class="navbar">
+        <ul>
+            <li>HOME</li>
+            <li>ABOUT</li>
+            <li>CODES</li>
+            <li>PROJECTS</li>
+            <li>MEDIA</li>
+            <li>TOOLS</li>
+            <li>CONTACT</li>
+        </ul>
+    </section>
+    <div class="content">
+        <section class="about">
+            <h2 style="font-family: 'Nova Oval', cursive;">About</h2>
+            <p><b>I'm 21 years old and I'm basically from Panagarh. I decided to learn web development when I was in class 12 and now I'm loving and enjoying through it.</p>
+        </section>
+        <section class="article">
+            <img src="Picsart_22-03-18_12-38-34-383.jpg" width="200px" height="200px">
+            <p>
+            <ul>
+                <h4>Random facts about Vishal:</h4>
+                <em>
+                <li>I'm the proud student of Unikaksha</li>
+                <li>My favorite development field is front-end</li>
+                <li>I love to use VS code</li>
+                <li>I hate web page unless it has some animation or hover effetcs</li>
+                <li>I just recently bought a new Laptop</li>
+                <li>I'm a fresher for any companies</li>
+                <li>Yes, I love to learn how to code better</li></em>
+            </ul>
+            </p>
+        </section>
+    </div>
+    <section class="footer">
+        <em>© Made with 💜 by Vishal 2023</em>
+    </section>
+
+</body>
+
+</html>
